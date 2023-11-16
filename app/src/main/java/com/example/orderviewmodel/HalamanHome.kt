@@ -57,7 +57,7 @@ fun HalamanHome(
                     contentScale = ContentScale.Crop
                 )
                 Text(
-                    text = "Coffee Latte",
+                    text = "Teh",
                     color = Color.DarkGray,
                     fontFamily = FontFamily.Cursive,
                     fontSize = 35.sp,
@@ -65,7 +65,7 @@ fun HalamanHome(
                         .align(Alignment.CenterHorizontally)
                 )
                 Text(
-                    text = "Gembrunggung",
+                    text = "Bencana",
                     color = Color.DarkGray,
                     fontFamily = FontFamily.Cursive,
                     fontStyle = FontStyle.Italic,

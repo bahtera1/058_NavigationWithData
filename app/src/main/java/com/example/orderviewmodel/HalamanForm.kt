@@ -68,6 +68,7 @@ fun HalamanForm(
         }, label = {
             Text(text = "Masukkan No Telepon")
         })
+        Spacer(modifier = Modifier.padding(25.dp))
         Row{
             Button(onClick = { onCancelButtonClick() }) {
                 Text(text = "Batal")

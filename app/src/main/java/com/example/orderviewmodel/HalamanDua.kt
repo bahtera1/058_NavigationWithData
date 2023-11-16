@@ -31,7 +31,9 @@ fun HalamanDua(
         Pair(stringResource(R.string.flavor),orderUIState.rasa),
         Pair(stringResource(R.string.nama), orderUIState.nama),
         Pair(stringResource(R.string.no_tlp), orderUIState.noTelp),
-        Pair(stringResource(R.string.alamat), orderUIState.alamat)
+        Pair(stringResource(R.string.alamat), orderUIState.alamat),
+        Pair(stringResource(R.string.quantity), orderUIState.jumlah),
+        Pair(stringResource(R.string.flavor), orderUIState.rasa)
     )
     Column(
         modifier = modifier,
@@ -64,6 +66,7 @@ fun HalamanDua(
                 Button(modifier = Modifier.fillMaxWidth(),
                     onClick = {}
                 ) {
+                    Text(stringResource(R.string.send))
                 }
                 OutlinedButton(modifier = Modifier.fillMaxWidth(),
                     onClick = onCancelButtonClicked
